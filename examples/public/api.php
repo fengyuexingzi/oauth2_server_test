@@ -27,7 +27,7 @@ $app->add(
     )
 );
 
-// An example endpoint secured with OAuth 2.0
+// An example endpoint secured with kauth 2.0
 $app->get(
     '/users',
     function (ServerRequestInterface $request, ResponseInterface $response) use ($app) {

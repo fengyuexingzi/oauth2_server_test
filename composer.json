@@ -15,8 +15,9 @@
         "zendframework/zend-diactoros": "^1.0"
     },
     "autoload": {
-        "psr-4": {
-            "League\\OAuth2\\Server\\": "src/"
+        "psr-4":{
+            "KAuth\\":"kauth/src/",
+            "OAuth2ServerExamples\\":"examples/src/"
         }
     },
     "autoload-dev": {
